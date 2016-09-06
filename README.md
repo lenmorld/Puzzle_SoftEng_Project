@@ -13,6 +13,13 @@
 ### Screens
 
 ![alt text](screens/menu1.JPG?raw=true "Menu")
+
+![alt text](screens/puzzle_maker_2.JPG?raw=true "Menu")
+
+![alt text](screens/puzzle_solver_2.JPG?raw=true "Menu")
+
 ![alt text](screens/puzzle_solver_3.png?raw=true "Menu")
+
+
 
 
