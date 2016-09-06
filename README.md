@@ -12,7 +12,10 @@
 
 ### Screens
 
-![alt text](https://github.com/lenmorld/Puzzle_SoftEng_Project/blob/master/screens/puzzle_solver_3.png "Menu")
+![alt text](screens/menu1.jpg?raw=true "Menu")
+![alt text](screens/puzzle_solver_3.png?raw=true "Menu")
+![alt text](screens/puzzle_solver_3.png?raw=true "Menu")
+![alt text](screens/puzzle_solver_3.png?raw=true "Menu")
 
 
 
