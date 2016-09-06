@@ -12,7 +12,7 @@
 
 ### Screens
 
-![alt text](screens/menu1.jpg?raw=true "Menu")
+![alt text](screens/menu1.JPG?raw=true "Menu")
 ![alt text](screens/puzzle_solver_3.png?raw=true "Menu")
 
 
