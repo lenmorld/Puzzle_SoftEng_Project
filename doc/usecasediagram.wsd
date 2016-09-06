@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+actor User
+actor :Puzzle Maker: as maker
+actor :Puzzle Solver: as solver
+actor Database
+actor :Solution Checker: as application
+rectangle "1D-2D GCHQ Puzzle Application" {
+	User -right-|> maker
+	User -left-|> solver
+	maker -- (Design)
+	maker -- (Assign Priorities)
+	maker -- (Save Puzzle)
+	(Start) .left.> (Solving)
+	User -right- (Start)
+	(Start) .right.> (Design)
+	solver -- (Solving)
+	solver -- (Manipulate Region)
+	solver -- (Display Potential Solution)
+	solver -- (Check Constraints/Solution)
+	(Assign Priorities) -- application
+	(Display Potential Solution) -- application
+	(Save Puzzle) -- Database	
+	(Check Constraints/Solution) -- application
+  }
+@enduml

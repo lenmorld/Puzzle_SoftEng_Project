@@ -1,0 +1,30 @@
+@startuml
+object Maker {
+	actor
+}
+object Solver {
+	actor
+}
+object Puzzle {
+	grid dimension
+	complexity
+}
+object RowsColumns {
+	priorities
+	constraints
+}
+object Solutions {
+	general
+	row/column
+}
+object Pixels {
+	black
+	white
+}
+Puzzle "1" *-- "*" RowsColumns : contains
+RowsColumns "1" *-- "*" Pixels : contains
+Maker "1" -right-- "*" Puzzle : design
+Puzzle "*" -right-- "1" Solver : solve
+Puzzle "1" -- "1" Solutions
+RowsColumns "*" -right- "*" Solutions
+@enduml

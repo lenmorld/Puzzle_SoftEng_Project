@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true">  
+  <object id="1" language="java" name="Driver.Driver" project="SE_Project" file="/SE_Project/src/Driver/Driver.java" 
+    binary="false" label="driver" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="155" y="0"/>    
+    <execution id="2">      
+      <position height="296" width="63" x="5" y="120"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="147" width="63" x="5" y="428"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="21" width="7" x="33" y="491"/>    
+    </execution>  
+  </object>  
+  <object id="9" language="java" name="Objects.Grid.TileListener" project="SE_Project" 
+    file="/SE_Project/src/Objects/Grid.java" binary="false" label="tileListener" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="278" y="0"/>    
+    <execution id="4">      
+      <position height="254" width="104" x="72" y="141"/>    
+    </execution>  
+  </object>  
+  <object id="12" language="java" name="Objects.Grid" project="SE_Project" file="/SE_Project/src/Objects/Grid.java" 
+    binary="false" label="grid" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="11">      
+      <position height="212" width="52" x="180" y="162"/>    
+    </execution>  
+  </object>  
+  <object id="15" language="java" name="components.PuzzleMaker" project="SE_Project" 
+    file="/SE_Project/src/components/PuzzleMaker.java" binary="false" label="puzzleMaker" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="453" y="0"/>    
+    <execution id="14">      
+      <position height="170" width="108" x="236" y="183"/>    
+    </execution>    
+    <execution id="17">      
+      <position height="84" width="108" x="236" y="248"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="21" width="7" x="287" y="290"/>    
+    </execution>  
+  </object>  
+  <object id="20" language="java" name="Objects.Board" project="SE_Project" file="/SE_Project/src/Objects/Board.java" 
+    binary="false" label="board" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="421" y="0"/>    
+    <execution id="21">      
+      <position height="63" width="64" x="348" y="470"/>    
+    </execution>  
+  </object>  
+  <object id="23" language="java" name="Objects.Board.PriorityButtonListener" project="SE_Project" 
+    file="/SE_Project/src/Objects/Board.java" binary="false" label="priorityButtonListener" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="554" y="0"/>    
+    <execution id="7">      
+      <position height="105" width="175" x="416" y="449"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="actionPerformed(java.awt.event.ActionEvent):void" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="actionPerformed(java.awt.event.ActionEvent):void" asynchronous="false">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="10" operation="calculateMarkedRowsCols(Objects.Tile):void" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="13" operation="setMarkedRowsColsState(int[],int[]):void" asynchronous="false">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="16" operation="getPriorityArray(int[]):int[]" asynchronous="false" x="340" y="229">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" operation="notifyAllObservers(java.lang.String):void" asynchronous="false" x="346" y="272">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="22" asynchronous="false">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="24" operation="nextPriority():void" asynchronous="false">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>
+</sequence-diagram>

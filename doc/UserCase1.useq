@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.9" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="Driver.Driver" project="SE_Project" file="/SE_Project/src/Driver/Driver.java" 
+    binary="false" label="driver" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="6" y="0"/>    
+    <execution id="2">      
+      <position height="357" width="63" x="5" y="108"/>    
+    </execution>    
+    <execution id="7">      
+      <position height="21" width="7" x="33" y="150"/>    
+    </execution>  
+  </object>  
+  <object id="8" language="java" name="Driver.GUIMenu" project="SE_Project" file="/SE_Project/src/Driver/GUIMenu.java" 
+    binary="false" label="guiMenu" type="class" autoSize="false">    
+    <position height="182" width="145" x="0" y="0"/>    
+    <execution id="4">      
+      <position height="63" width="141" x="72" y="129"/>    
+    </execution>    
+    <execution id="6">      
+      <position height="231" width="7" x="139" y="213"/>    
+    </execution>  
+  </object>  
+  <object id="12" language="java" name="components.PuzzleMaker" project="SE_Project" 
+    file="/SE_Project/src/components/PuzzleMaker.java" binary="false" label="puzzleMaker" type="class" autoSize="false">    
+    <position height="161" width="173" x="145" y="0"/>    
+    <execution id="11">      
+      <position height="189" width="169" x="217" y="234"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="components.Puzzle" project="SE_Project" 
+    file="/SE_Project/src/components/Puzzle.java" binary="false" label="puzzle" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="577" y="0"/>    
+    <execution id="14">      
+      <position height="21" width="67" x="390" y="255"/>    
+    </execution>  
+  </object>  
+  <object id="18" language="java" name="Objects.Board" project="SE_Project" file="/SE_Project/src/Objects/Board.java" 
+    binary="false" label="board" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="585" y="0"/>    
+    <execution id="16">      
+      <position height="105" width="64" x="461" y="297"/>    
+    </execution>  
+  </object>  
+  <object id="21" language="java" name="Objects.Grid" project="SE_Project" file="/SE_Project/src/Objects/Grid.java" 
+    binary="false" label="grid" type="class" autoSize="false">    
+    <position height="359" width="96" x="524" y="0"/>    
+    <execution id="20">      
+      <position height="63" width="52" x="529" y="318"/>    
+    </execution>  
+  </object>  
+  <object id="24" language="java" name="Objects.Tile" project="SE_Project" file="/SE_Project/src/Objects/Tile.java" 
+    binary="false" label="tile" type="class" autoSize="false">    
+    <position height="101" width="96" x="620" y="0"/>    
+    <execution id="23">      
+      <position height="21" width="92" x="625" y="339"/>    
+    </execution>  
+  </object>  
+  <message id="3" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="9" asynchronous="false">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="10" operation="PuzzleMaker(int,int)" asynchronous="false" x="177" y="216">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="13" operation="Puzzle(int,int)" asynchronous="false" x="325" y="237">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="15" operation="Board(int,int)" asynchronous="false" x="405" y="278">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="19" operation="Grid(int,int)" asynchronous="false" x="510" y="298">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>  
+  <message id="22" operation="Tile()" asynchronous="false" x="616" y="320">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>
+</sequence-diagram>
